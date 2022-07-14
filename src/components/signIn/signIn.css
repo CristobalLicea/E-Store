@@ -1,0 +1,138 @@
+.signIn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.signInOptions {
+  display: flex;
+  height: 30px;
+  margin-left: 25px;
+}
+
+#signInScreen {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#signInScreen form {
+  font-size: 12px;
+  color: rgb(53, 53, 53);
+  height: 90%;
+  width: 90%;
+}
+
+.inputSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.inputSection p {
+  font-size: 8px;
+  width: 90%;
+  margin: 10px 0;
+  text-align: start;
+}
+
+.inputSection input {
+  width: 90%;
+  height: 30px;
+  border: 1px solid rgb(219, 222, 255);
+  margin-top: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.inputSection label {
+  width: 90%;
+  text-align: start;
+}
+
+.logInBtn {
+  background-color: rgb(0, 236, 59);
+  color: white;
+  border: solid rgb(255, 255, 255) 1px;
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  transition: ease-in-out .3s all;
+}
+
+.logInBtnOff {
+  background-color: rgb(149, 255, 176);
+  color: white;
+  border: solid rgb(255, 255, 255) 1px;
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  transition: ease-in-out .3s all;
+}
+
+.logInBtn:hover {
+  background-color: white;
+  color: rgb(0, 236, 59);
+  border: rgb(0, 122, 236) solid 1px;
+}
+
+.facebookRegisterBtn {
+  background-color: rgb(0, 122, 236);
+  color: white;
+  border: solid rgb(255, 255, 255) 1px;
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  transition: ease-in-out .3s all;
+}
+
+.facebookRegisterBtn:hover {
+  background-color: white;
+  color: rgb(0, 122, 236);
+  border: rgb(0, 122, 236) solid 1px;
+}
+
+.toggleBox {
+  text-align: start;
+  color: rgb(53, 53, 53);
+  margin: 0 5px;
+}
+
+.toggleBox label {
+  font-size: 12px;
+}
+
+.eyeIcon {
+  position: absolute;
+  top:25px;
+  right:20px
+}
+
+.registerBtn {
+  background-color: rgb(255, 97, 97);
+  color: white;
+  border: solid rgb(255, 255, 255) 1px;
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  transition: ease-in-out .3s all;
+}
+
+.registerBtn:hover {
+  background-color: white;
+  color: rgb(255, 0, 0);
+  border: rgb(255, 0, 0) solid 1px;
+}
+
+.errorMsg {
+  color:red;
+}

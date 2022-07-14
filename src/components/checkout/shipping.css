@@ -1,0 +1,300 @@
+.full {
+  width: 1200px;
+  height: 730px;
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.main {
+  width: 70%;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: start;
+  padding: 5px 10px;
+  margin: 5px;
+  margin-top: 9px;
+  height: 86%;
+  position: relative;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h6 {
+  border-bottom: solid rgb(199, 199, 199) 1px;
+}
+
+.form label {
+  font-size: 12px;
+}
+
+.progress {
+  width: 100%;
+  height: 10%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bar {
+  display: flex;
+  height: 30px;
+  width: 90%;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.barQuarter {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 15px;
+}
+
+#active {
+  background-color: rgb(141, 141, 141);
+  border-radius: 15px;
+}
+
+.aside {
+  background-color: rgb(255, 255, 255);
+  color: rgb(56, 56, 56);
+  width: 30%;
+  margin: 5px;
+  margin-left: 0px;
+}
+
+.aside h6 {
+  margin: 0;
+}
+
+.input {
+  margin: 15px ;
+  display: flex;
+  position: relative;
+}
+
+.shippingInput3 {
+  margin: 15px ;
+  display: flex;
+}
+
+.input label {
+  margin-right: 20px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+
+}
+
+.shippingInput3 label {
+  display: flex;
+  align-items: center;
+}
+
+.input input {
+  border-radius: 0px;
+  height: 30px;
+  border: solid rgb(194, 194, 194) 1px;
+  width: 50%;
+}
+
+.shippingInput2 input {
+  border-radius: 0px;
+  height: 30px;
+  border: solid rgb(194, 194, 194) 1px;
+}
+
+.smallInput {
+  border-radius: 0px;
+  height: 30px;
+  border: solid rgb(194, 194, 194) 1px;
+  width: 10%;
+  margin-right:10px;
+}
+
+.shippingInput3 select {
+  background-color: gray;
+  border:none;
+  margin-right:24px;
+  width: 120px
+}
+
+.start {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.side {
+  margin-right: 10px;
+}
+
+.backToCart {
+  background-color:white;
+  color: black;
+  border: solid black 1px;
+  height: 30px;
+  cursor:pointer;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 25px;
+
+}
+
+.expiry {
+  margin-right: 20px;
+}
+
+#checkout {
+  margin-top: 30px;
+  width: 90%;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  background-color: red;
+  color: white;
+  transition: ease-in-out 0.3s all;
+}
+
+#checkoutOff {
+  margin-top: 30px;
+  width: 90%;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  background-color: rgb(255, 138, 138);
+  color: white;
+  transition: ease-in-out 0.3s all;
+}
+
+#checkout:hover {
+  background-color: rgb(110, 0, 0);
+}
+
+#cvv {
+  width: 10%;
+}
+
+#securityCode {
+  width: 5%;
+}
+
+.itemBox {
+  margin: 2px;
+  padding: 0 2px;
+  border-bottom: solid black 1px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalSummary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.cartList {
+  height: 60%;
+}
+
+.cartList2 {
+  height: 45%;
+}
+
+.currentSummary {
+  padding: 0 10px;
+}
+
+.currentSummary2 {
+  padding: 0 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-weight: 500;
+  text-align: start;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+#confirmBox {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  font-size: larger;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  left: 335px;
+  top: 10px;
+}
+
+.nameInput {
+  position: absolute;
+  right: 300px;
+  color: red;
+}
+
+.errBox {
+  border-radius: 0px;
+  height: 30px;
+  border: solid rgb(255, 0, 0) 1px;
+  background-color: rgb(255, 111, 111);
+  width: 10%;
+  margin-right:10px;
+}
+
+.endbutton{
+  width: 60%;
+  height: 40px;
+  margin: 10px 0;
+  background-color: black;
+  border: solid white 1px;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.endbutton:hover {
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+}
+@media screen and (max-width: 765px) {
+  .shippingBody {
+    width: 100%;
+    height: fit-content;
+ 
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .shipping {
+    width: 100%;
+  }
+
+  .aside {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 100%;
+    margin: 5px;
+    margin-left: 0px;
+  }
+  
+}

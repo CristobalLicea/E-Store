@@ -1,0 +1,7 @@
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(58, 58, 58);
+  display: flex;
+  justify-content: center;
+}
